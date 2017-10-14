@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Roboto')
+/*global*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #828282;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #828282;
+}
+h2::after {
+    content: "\00a0";
+    display: block;
+    border: none;
+    border-bottom: 3px solid #02c6d8;
+    width: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.btn {
+  font-family: 'Damion', cursive;
+  font-size: 30px;
+  font-style: italic;
+  padding: 5px 30px;
+  color: #fff;
+}
+.btn-orange {
+  background-color: #e46e48;
+}
+/*header*/
+header {
+  background-color: #00b1c6;
+  color: #fff;
+  /*height: 700px;*/
+}
+.navbar-inverse {
+  background-color: #00b1c6;
+  border: none;
+  margin-top: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.navbar .navbar-inverse {
+  background-color: #00b1c6;
+}
+.navbar-brand {
+  background-image: url(../images/logo.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.navbar-brand span {
+  margin-left: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+} 
+.title-header {
+  margin-top: 135px;
+}
+.title-header h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.title-header h1 span {
+  font-size: 50px;
+}
+.btn-header {
+  background-color: #9068be;
+  margin-top: 20px;
+}
+.img-header {
+/*  background-image: url('../images/header-woman.png');
+  background-size: cover;
+  background-position: center;
+  height: 595px;*/
+  padding: 0;
+  margin: 0;
+}
+/*section about*/
+#about {
+  margin-top: 50px;
+}
+.about-head {
+  margin-bottom: 30px;
+}
+.about-head p {
+  font-size: 18px;
+  text-align: center;
+}
+.about-paragraph {
+  margin-top: 50px;
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+.about-paragraph p {
+  font-size: 14px;
+}
+.about-paragraph p:nth-child(3) {
+  color: #e46e48;
+}
+/*section opt-in*/
+#opt-in {
+  background-color: #9068be;
+  color: #fff;
+  height: 140px;
+}
+.opt-in-article {
+  margin-top: 20px;
+}
+#opt-in h3 {
+  font-size: 26px;
+}
+#opt-in form input {
+  margin-top: 50px;
+}
+#opt-in form input {
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 10px;
+  height: 40px;
+}
+#opt-in .btn {
+  font-size: 20px;
+  padding: 5px 20px;
+  margin: 0;
+}
+
+
+
+
+
+/*work-with-us*/
+#work-with-us {
+  background-image: url(../images/background-work-with.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  text-align: center;
+  color: #fff;
+}
+#work-with-us p {
+  margin: 200px 0 50px 0;
+  font-size: 24px;
+}
+
