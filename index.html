@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- miedzy innymi do carousel -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   <!-- ikonka strony wazne aby była w głównym katalogu z nazwa favicon.ico-->
@@ -30,24 +29,24 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">New Here</a></li> 
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Services</a></li> 
-                <li><a href="#">Portfolio</a></li> 
-                <li><a href="#">Work with us</a></li> 
+                <li><a class="menu-link" href="#">Home</a></li>
+                <li><a class="menu-link" href="#about">About</a></li>
+                <li><a class="menu-link" href="#">New Here?</a></li> 
+                <li><a class="menu-link" href="#">Blog</a></li>
+                <li><a class="menu-link" href="#services">Services</a></li> 
+                <li><a class="menu-link" href="#">Portfolio</a></li> 
+                <li><a class="menu-link" href="#work-with-us">Work with us</a></li> 
               </ul>
             </div>
         </nav>
         <div class="row">
-          <div class="title-header col-sm-6 offset-sm-2">
+          <div class="title-header col-sm-6">
             <h1>How can we build <br><span>An amazing site</span></h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the.</p>
             <button class="btn btn-header">View Portfolio</button>
           </div>
-          <div class="img-header col-sm-4">
-            <img src="images/header-woman.png">
+          <div class="img-header col-sm-6">
+            <img src="images/header-woman.png" class="img-responsive">
           </div>
         </div>    
       </div>
@@ -55,7 +54,7 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="about-head col-sm-12">
+          <div class="about-head section-head col-sm-12">
             <h2>About BGStudio</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
             Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -63,7 +62,7 @@
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <img src="images/about-img.jpg">
+            <img src="images/about-img.jpg" class="img-responsive">
           </div>
           <div class="about-paragraph col-sm-6">
             <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem. Praesent ac tortor magna. Cras eu dui mattis, mollis est et, bibendum urna. Integer bibendum id ligula sit amet iaculis. 
@@ -98,7 +97,7 @@
     <section id="services">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="section-head col-sm-12">
             <h2>What we do best</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
@@ -106,15 +105,19 @@
         <div class="row">
           <div class="col-sm-6">
             <img src="images/one-to-one.png">
-            <h3>One to One Coaching</h3>
-            <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem. Praesent ac tortor magna tempus tempus magna ante at magna.ante at. Cras eu dui mattis, mollis est et, bibendum urna. Integer bibendum id ligula sit amet iaculis. </p>
+            <div class="background-services">
+              <h3 class="one-to">One to One Coaching</h3>
+              <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem. Praesent ac tortor magna tempus tempus magna ante at magna.ante at. Cras eu dui mattis, mollis est et, bibendum urna. Integer bibendum id ligula sit amet iaculis. </p>
+          </div>
             <button class="btn btn-orange">Get it Now!</button>
           </div>
           <div class="col-sm-6">
             <img src="images/website-development.png">
-            <h3>Website Development</h3>
-            <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem. Praesent ac tortor magna tempus tempus magna ante at magna. ante at. Cras eu dui mattis, mollis est et, bibendum urna. Integer bibendum id ligula sit amet iaculis. </p>
-            <button class="btn">Learn More</button>
+            <div class="background-services">
+              <h3 class="website">Website Development</h3>
+              <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem. Praesent ac tortor magna tempus tempus magna ante at magna. ante at. Cras eu dui mattis, mollis est et, bibendum urna. Integer bibendum id ligula sit amet iaculis. </p>
+            </div>
+            <button class="btn btn-website">Learn More</button>
           </div>
         </div>
       </div>
@@ -123,7 +126,7 @@
     <section id="testimonials">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="section-head col-sm-12">
             <h2>What our clients have say...</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
@@ -131,21 +134,27 @@
         <div class="row">
           <div class="col-sm-4">
             <img src="images/quotation.png">
-            <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
-            <img src="images/foto-ben.png">
-            <p>Ben Angel <br><span>www.hellogorgeous.com<span></p>
+            <p class="description-person">Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
+            <div class="testimonials-person">
+              <img src="images/foto-ben.png">
+              <p>Ben Angel <br><span>www.hellogorgeous.com</span></p>
+            </div>
           </div>
           <div class="col-sm-4">
             <img src="images/quotation.png">
-            <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
-            <img src="images/foto-ben.png">
-            <p>Ben Angel <br><span>www.hellogorgeous.com<span></p>
+            <p class="description-person">Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
+            <div class="testimonials-person">
+              <img src="images/foto-ben.png">
+              <p>Ben Angel <br><span>www.hellogorgeous.com</span></p>
+            </div>
           </div>
           <div class="col-sm-4">
             <img src="images/quotation.png">
-            <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
-            <img src="images/foto-ben.png">
-            <p>Ben Angel <br><span>www.hellogorgeous.com<span></p>
+            <p class="description-person">Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc, non tempus magna ante at sem.</p>
+            <div class="testimonials-person">
+              <img src="images/foto-ben.png">
+              <p>Ben Angel <br><span>www.hellogorgeous.com</span></p>
+            </div>
           </div>
         </div>
       </div>
@@ -165,24 +174,24 @@
     <footer>
       <div class="container">
         <div class="row">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#">New Here?</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work With Us</a></li>
-            <li><a href="#">Contact</a></li>
+          <ul class="nav-footer">
+            <li><a class="menu-link" href="#home">Home</a></li>
+            <li><a class="menu-link" href="#about">About</a></li>
+            <li><a class="menu-link" href="#">New Here?</a></li>
+            <li><a class="menu-link" href="#">Blog</a></li>
+            <li><a class="menu-link" href="#">Shop</a></li>
+            <li><a class="menu-link" href="#">Services</a></li>
+            <li><a class="menu-link" href="#work-with-us">Work With Us</a></li>
+            <li><a class="menu-link" href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="row">
-          <img src="images/logo-footer.png">
-          <p>BGStudio</p>
+        <div class="row brand-footer">
+          
+          <a href="#" class="logo-footer"><img src="images/logo-footer.png"><span class="logo-link">Bg<span>studio</span></span></a>
         </div>
         <div class="row">
-          <ul>
-            <li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></li>
+          <ul class="social-media">
+            <li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
             <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
             <li><a href="#"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
           </ul>
@@ -191,15 +200,8 @@
       </div>
     </footer>
   </div>
-
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <!-- <script src="js/jquery-1.9.1.min.js"></script> -->
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 </html>
